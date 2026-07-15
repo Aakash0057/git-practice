@@ -8,7 +8,7 @@ def calculate_grade(marks):
  else:
     return "F"
 if __name__ == "__main__":
- marks = 82
+ marks = int(input("Enter your mark: "))
  print("Marks:", marks)
  print("Grade:", calculate_grade(marks))
  print("Congrats")
